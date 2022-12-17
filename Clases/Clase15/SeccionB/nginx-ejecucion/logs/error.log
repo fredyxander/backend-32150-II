@@ -1,0 +1,9 @@
+2022/12/17 12:59:38 [notice] 17128#4852: signal process started
+2022/12/17 13:00:01 [notice] 10340#3836: signal process started
+2022/12/17 13:00:52 [error] 20596#13424: *1 CreateFile() "E:\Coderhouse\Backend-Nodejs\Backend-32150\Clases\Clase15\SeccionB\nginx-1.23.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2022/12/17 13:01:00 [error] 20596#13424: *1 CreateFile() "E:\Coderhouse\Backend-Nodejs\Backend-32150\Clases\Clase15\SeccionB\nginx-1.23.3/html/perfiles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /perfiles HTTP/1.1", host: "localhost:81"
+2022/12/17 13:01:37 [notice] 9260#14588: signal process started
+2022/12/17 13:02:26 [notice] 16080#2384: signal process started
+2022/12/17 13:02:57 [notice] 252#19476: signal process started
+2022/12/17 13:03:50 [error] 21112#4752: *1 CreateFile() "E:\Coderhouse\Backend-Nodejs\Backend-32150\Clases\Clase15\SeccionB\nginx-1.23.3/html/perfiles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /perfiles HTTP/1.1", host: "localhost:81"
+2022/12/17 13:04:40 [notice] 8104#20768: signal process started

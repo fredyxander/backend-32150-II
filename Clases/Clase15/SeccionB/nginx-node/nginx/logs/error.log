@@ -1,0 +1,2 @@
+2022/12/17 13:54:39 [error] 8276#15216: *36 "./server-backend/public/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:81"
+2022/12/17 13:55:49 [notice] 14972#20432: signal process started

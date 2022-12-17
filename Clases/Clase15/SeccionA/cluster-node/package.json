@@ -1,0 +1,21 @@
+{
+  "name": "cluster-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-fork": "nodemon server.js 8080 fork",
+    "node-cluster": "nodemon server.js 8080 cluster",
+    "forever": "forever start server.js 8080",
+    "pm2-fork": "p2m start server.js -- 8080",
+    "pm2-cluster": "pm2 start server.js -i 0 -- 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
