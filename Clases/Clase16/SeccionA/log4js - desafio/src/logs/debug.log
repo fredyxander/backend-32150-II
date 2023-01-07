@@ -1,0 +1,4 @@
+[2023-01-07T11:35:13.711] [DEBUG] produccion - Server listening on port 8080
+[2023-01-07T11:35:19.264] [ERROR] produccion - El usuario no ingreso los numeros
+[2023-01-07T11:35:46.255] [ERROR] produccion - Datos invalidos
+[2023-01-07T11:36:15.922] [INFO] produccion - La suma fue realizada correctamente

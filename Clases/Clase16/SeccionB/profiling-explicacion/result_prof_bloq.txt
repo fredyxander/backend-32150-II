@@ -1,0 +1,44 @@
+Statistical profiling result from isolate-bloq.log, (173485 ticks, 1 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  172916   99.7%          C:\WINDOWS\SYSTEM32\ntdll.dll
+    554    0.3%          C:\Program Files\nodejs\node.exe
+      2    0.0%          C:\WINDOWS\System32\KERNELBASE.dll
+      1    0.0%          C:\WINDOWS\system32\mswsock.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      2    0.0%   16.7%  Function: ^Readable.read node:internal/streams/readable:394:35
+      1    0.0%    8.3%  RegExp: ^.*[\.\/\\]
+      1    0.0%    8.3%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      1    0.0%    8.3%  RegExp: (\[[^[\]]*])
+      1    0.0%    8.3%  LazyCompile: *resolve node:path:158:10
+      1    0.0%    8.3%  Function: ^setHeader node:_http_outgoing:574:57
+      1    0.0%    8.3%  Function: ^resume_ node:internal/streams/readable:985:17
+      1    0.0%    8.3%  Function: ^insert node:internal/timers:350:16
+      1    0.0%    8.3%  Function: ^fastparse E:\Coderhouse\Backend-Nodejs\Backend-32150\Clases\Clase16\SeccionB\profiling-explicacion\node_modules\parseurl\index.js:95:20
+      1    0.0%    8.3%  Function: ^<anonymous> node:vm:313:27
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+     11    0.0%   91.7%  JavaScript
+      0    0.0%    0.0%  C++
+     40    0.0%  333.3%  GC
+  173473  100.0%          Shared libraries
+      1    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  172916   99.7%  C:\WINDOWS\SYSTEM32\ntdll.dll
+

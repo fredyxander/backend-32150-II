@@ -1,0 +1,7 @@
+[2023-01-07T11:03:18.645] [INFO] default - mensaje de nivel info
+[2023-01-07T11:03:18.650] [WARN] default - mensaje de nivel warn
+[2023-01-07T11:03:18.650] [ERROR] default - mensaje de nivel error
+[2023-01-07T11:03:18.651] [FATAL] default - mensaje de nivel fatal
+[2023-01-07T11:04:03.516] [WARN] default - mensaje de nivel warn
+[2023-01-07T11:04:03.521] [ERROR] default - mensaje de nivel error
+[2023-01-07T11:04:03.521] [FATAL] default - mensaje de nivel fatal

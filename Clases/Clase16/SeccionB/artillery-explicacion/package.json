@@ -1,0 +1,19 @@
+{
+  "name": "artillery-explicacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-fork": "node src/server.js 8081 FORK",
+    "start-cluster": "node src/server.js 8081 CLUSTER",
+    "artillery-fork": "artillery quick --count 50 -n 40 http://localhost:8081?max=100000 > result_fork.txt",
+    "artillery-cluster": "artillery quick --count 50 -n 40 http://localhost:8081?max=100000 > result_cluster.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

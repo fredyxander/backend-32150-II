@@ -1,0 +1,39 @@
+Statistical profiling result from isolate-nobloq.log, (87107 ticks, 0 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  86605   99.4%          C:\WINDOWS\SYSTEM32\ntdll.dll
+    493    0.6%          C:\Program Files\nodejs\node.exe
+      1    0.0%          C:\WINDOWS\system32\mswsock.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      2    0.0%   25.0%  LazyCompile: *normalizeString node:path:66:25
+      1    0.0%   12.5%  Function: ^setHeader node:_http_outgoing:574:57
+      1    0.0%   12.5%  Function: ^process_params E:\Coderhouse\Backend-Nodejs\Backend-32150\Clases\Clase16\SeccionB\profiling-explicacion\node_modules\express\lib\router\index.js:338:47
+      1    0.0%   12.5%  Function: ^nextTick node:internal/process/task_queues:104:18
+      1    0.0%   12.5%  Function: ^newAsyncId node:internal/async_hooks:415:20
+      1    0.0%   12.5%  Function: ^clearBuffer node:internal/streams/writable:529:21
+      1    0.0%   12.5%  Function: ^<anonymous> E:\Coderhouse\Backend-Nodejs\Backend-32150\Clases\Clase16\SeccionB\profiling-explicacion\node_modules\express\lib\router\index.js:280:64
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+      8    0.0%  100.0%  JavaScript
+      0    0.0%    0.0%  C++
+     34    0.0%  425.0%  GC
+  87099  100.0%          Shared libraries
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  86605   99.4%  C:\WINDOWS\SYSTEM32\ntdll.dll
+
