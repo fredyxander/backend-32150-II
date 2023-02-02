@@ -1,0 +1,2 @@
+[2023-01-26T20:18:29.763] [FATAL] default - Hubo un error al conectar la base de datos MongoServerError: bad auth : authentication failed
+[2023-02-01T18:08:20.411] [ERROR] default - Hubo un error al enviar el mensaje de texto al usuario del registro Error: The 'To' number +3507850462 is not a valid phone number.

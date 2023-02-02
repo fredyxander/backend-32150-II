@@ -40,7 +40,7 @@ app.get("/newUser", (req, res) => {
         return res.sendStatus(400);
     }
 
-    //generamos un algoritmo para la encriptacion y finalmente el hash.
+    //generamos un algoritmo para la encriptacion que luego utilizamos para generar el hash.
     const salt = crypto.randomBytes(128).toString("base64");
     const hash = crypto.pbkdf2Sync(password, salt, 10000, 512, "sha512");//1234->kjahdhgasd
 
@@ -59,10 +59,10 @@ app.get("/auth-bloq", (req, res) => {
     if (!username || !password || !users[ username ]) {
         return res.sendStatus(400);
     }
-
+    //obtenemos el salt y el hash del usuario que guardamos anteriormente.
     const { salt, hash } = users[ username ];
 
-    //encriptacion de la contrasena del login
+    //encriptacion de la contrasena del formulario login
     const encryptHash = crypto.pbkdf2Sync(password, salt, 10000, 512, "sha512");
 
     //comparar contrasenas encriptadas
