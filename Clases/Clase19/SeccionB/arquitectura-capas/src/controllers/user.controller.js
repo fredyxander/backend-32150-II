@@ -3,9 +3,15 @@ import {getUsers, saveUser} from "../services/user.service.js";
 export const getUsersController = async(req,res)=>{
     try {
         const response = await getUsers();
-        res.json({data:response});
+        res.json({
+            status:"SUCCESS",
+            data:response
+        });
     } catch (error) {
-        res.json({message:`Hubo un error ${error}`});
+        res.json({
+            status:"ERROR",
+            message:`Hubo un error ${error}`
+        });
     }
 }
 

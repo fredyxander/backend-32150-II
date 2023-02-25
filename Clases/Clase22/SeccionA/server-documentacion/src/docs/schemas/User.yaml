@@ -1,0 +1,28 @@
+# como se ve el objeto de obtener usuario
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - _id
+        - nombre
+        - apellido
+        - dni
+      properties:
+        _id:
+          type: string
+          description: "id generado por la base de datos"
+        nombre:
+          type: string
+          description: "nombre del usuario"
+        apellido:
+          type: string
+          description: "apellido del usuario"
+        dni:
+          type: string
+          description: "dni del usuario"
+      example:
+        _id: jkhs7826
+        nombre: pepito
+        apellido: rosas
+        dni: "9186723"
